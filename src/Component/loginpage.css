@@ -1,0 +1,90 @@
+.containerlogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containercontent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 23%;
+    gap: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    z-index: 2;
+}
+.containerlogo{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.containercontent >div > input{
+    padding:10px;
+    border-radius: 5px;
+    border: 2px solid #CED4DA;
+    width: -webkit-fill-available;
+    margin-top: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.button{
+    border-radius: 5px;
+    background-color: #3766E8;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0px;
+    /* margin-top: 1rem; */
+}
+.button:hover{
+    cursor: pointer;
+
+}
+
+.para{
+    margin:0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+.loginlogo{
+    color: #3766E8;
+}
+.icons{
+    text-align: center;
+}
+.icons:hover{
+    cursor: pointer;
+}
+
+.google{
+    font-size:2rem;
+    margin-top:1rem;
+}
+.facebook{
+    font-size:2rem;
+    color: blue;
+    margin-left: 2rem;
+
+}
+.linkedin{
+    font-size:2rem;
+    color: rgb(52, 52, 227);
+    margin-left: 2rem;
+
+}
+.section{
+    display: flex;
+    /* flex-direction: column; */
+}
