@@ -97,7 +97,6 @@ function LoginPage() {
           </div>
           <div className="button">login</div>
           <div className="icons">
-            {/* <div style={{}}>OR</div> */}
             <a href="#google">
               <FcGoogle className="google" />
             </a>
